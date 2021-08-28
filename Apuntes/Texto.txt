@@ -1,0 +1,55 @@
+TEXTO
+
+<h1> Encabezados (1 a 6): Define los títulos de las secciones de mayor importancia de la página. </h1>
+<p> Parrafos: Delimita el contenido de un párrafo de texto </p>
+<a href="http://www.enlace.com> Enlaces:  </a>
+
+* Tipos de textos:
+
+<em> em: texto importante (simil cursiva)</em>
+<strong> strong: texto mucho mas importante (simil a negrita) </strong>
+<br> </br> br es una etiqueta vacia, debe abrirse y cerrarse enseguida. Fuerza al navegador a insertar una nueva línea. 
+<pre> Texto preformateado: Muestra el texto que encierra tal y como está escrito (respetando los espacios en blanco) </pre>
+<code> code: Delimita el texto considerado un fragmento de código fuente </code>
+
+* Codificacion de caracteres:
+
+Entidad	 Carácter	Descripción	Traducción
+&lt;	  <	        less than	signo de menor que
+&gt;	  >	        more than	signo de mayor que
+&amp;	  &	        ampersand	ampersand
+&quot;	  "	        quotation mark	comillas
+&nbsp;	  (espacio en blanco)	non-breaking space	espacio en blanco
+&apos;	  '	        apostrophe	apóstrofo
+&ntilde;	ñ	latin letter n with tilde
+&Ntilde;	Ñ	latin capital n letter with tilde
+&aacute;	á	a acute
+&eacute;	é	e acute
+&iacute;	í	i acute
+&oacute;	ó	o acute
+&uacute;	ú	u acute
+&Aacute;	Á	A acute
+&Eacute;	É	E acute
+&Iacute;	Í	I acute
+&Oacute;	Ó	O acute
+&Uacute;	Ú	U acute
+&euro;   	€	euro
+
+
+
+
+URL
+
+Ejemplo http://www.alistapart.com/comments/webstandards2008?page=5#42
+
+Las cinco partes que forman la URL anterior son:
+-Protocolo (http://)
+-Servidor (www.alistapart.com)
+-Ruta (/comments/webstandards2008)
+-Consulta (?page=5): información adicional necesaria para que el servidor localice correctamente el recurso que se quiere acceder. Siempre comienza con el carácter ? y contiene una sucesión de palabras separadas por = y &
+-Sección (#42): permite que el navegador se posicione automáticamente en una sección de la página web. Siempre comienza con el caracter #
+
+Tipos de URL (ejemplo)
+URL absoluta: http://www.ejemplo.com/ruta1/ruta2/pagina2.html
+URL relativa: /ruta1/ruta2/pagina2.html
+Una URL relativa es una versión abreviada de una URL absoluta.
