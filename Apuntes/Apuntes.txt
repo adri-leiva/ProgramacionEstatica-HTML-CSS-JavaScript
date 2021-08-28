@@ -1,0 +1,47 @@
+El lenguaje HTML es un estándar reconocido en todo el mundo y cuyas normas define un organismo sin ánimo de lucro llamado World Wide Web Consortium, más conocido como W3C.
+
+
+
+
+COMENTARIOS:
+<!-- Esto es un comentario -->
+
+
+
+ATRIBUTOS BASICOS
+Los siguiente cuatro atributos básicos se pueden aplicar prácticamente a todas las etiquetas HTML:
+
+|Atributo_______|Descripción
+id = "texto"	|Establece un identificador único a cada elemento dentro de una página HTML
+class = "texto"	|Establece la clase CSS que se aplica a los estilos del elemento
+style = "texto"	|Establece de forma directa los estilos CSS de un elemento
+title = "texto"	|Establece el título a un elemento (mejora la accesibilidad y los navegadores lo muestran cuando el usuario pasa el ratón por encima del elemento)
+________________|
+
+
+ELEMENTOS
+
+Se define el término _elemento_ para referirse a las partes que componen los documentos HTML,
+
+Un elemento está formado por: 
+                            
+        <p class="normal">   Esto es un párrafo </p>
+
+* Una etiqueta de apertura:       <p>
+* Cero o más atributos:           class="normal"
+* Texto encerrado por la etiqueta: Esto es un párrafo
+* Una etiqueta de cierre: </p>
+
+
+Por otra parte, el lenguaje HTML clasifica a todos los elementos en dos grupos:
+* Elementos en LINEA (inline elements en inglés). Sólo ocupan el espacio necesario para mostrar sus contenidos.
+* Elementos de BLOQUE (block elements en inglés). Siempre empiezan en una nueva línea y ocupan todo el espacio disponible hasta el final de la línea.
+OBS! Un elemento de bloque no puede aparecer dentro de un elemento en línea. En cambio, un elemento en línea puede aparecer dentro de un elemento de bloque y dentro de otro elemento en línea.
+
+Los elementos en línea definidos por HTML son: a, abbr, acronym, b, basefont, bdo, big, br, cite, code, dfn, em, font, i, img, input, kbd, label, q, s, samp, select, small, span, strike, strong, sub, sup, textarea, tt, u, var.
+Los elementos de bloque definidos por HTML son: address, blockquote, center, dir, div, dl, fieldset, form, h1, h2, h3, h4, h5, h6, hr, isindex, menu, noframes, nos-cript, ol, p, pre, table, ul.
+Los siguientes elementos también se considera que son de bloque: dd, dt, frame-set, li, tbody, td, tfoot, th, thead, tr.
+Los siguientes elementos pueden ser en línea y de bloque según las circunstancias: button, del, iframe, ins, map, object, script.
+
+
+La etiqueta <span> sólo se puede utilizar para encerrar contenidos y etiquetas en línea. Cuando se quieren estructurar elementos de bloque, se utiliza la etiqueta <div>, tal y como se verá en capítulos posteriores.
