@@ -1,18 +1,56 @@
 TEXTO
 
 <h1> Encabezados (1 a 6): Define los títulos de las secciones de mayor importancia de la página. </h1>
+
+<br> </br> Salto de linea. Es una etiqueta vacia, debe abrirse y cerrarse enseguida. 
+
 <p> Parrafos: Delimita el contenido de un párrafo de texto </p>
-<a href="http://www.enlace.com> Enlaces:  </a>
-
-* Tipos de textos:
-
-<em> em: texto importante (simil cursiva)</em>
-<strong> strong: texto mucho mas importante (simil a negrita) </strong>
-<br> </br> br es una etiqueta vacia, debe abrirse y cerrarse enseguida. Fuerza al navegador a insertar una nueva línea. 
 <pre> Texto preformateado: Muestra el texto que encierra tal y como está escrito (respetando los espacios en blanco) </pre>
-<code> code: Delimita el texto considerado un fragmento de código fuente </code>
 
-* Codificacion de caracteres:
+<a href="http://www.enlace.com> Enlaces: Se emplea para enlazar todo tipo de recursos </a>
+
+Enlaces hipertextos: anclas
+<a name=”direccion_URL”> crear ancla </a>
+<a href=”#nombreAncla”> enlace al ancla – misma página </a>
+<a href=”direccionPagina#nombreAncla”>ancla a otraPagina</a>
+
+* Formato de texto
+
+    <strike> tachar texto (stilo fisico) </strike>
+
+    <strong> simil negrita,texto mucho mas importante (Estilo logico) </strong>
+    <b> simil negrita,texto mucho mas importante (Estilo fisico) </b>
+
+    <big> Aumentar el tamaño del texto (Estilo fisico) </big>
+    <small> Reduce el tamaño del texto </small>
+
+    <u> Texto subrayado (Estilo fisico) </u>
+
+    <sub> Texto tipo subindice (Estilo fisico) </sub>
+    <sup> Texto como superindice (Estilo fisico) </sup>
+
+    <i> Cursiva - Marca el texto como importante (Estilo fisico) </i>
+    <em> Cursiva - Marca el texto como importante (Estilo logico) </em>
+
+    <var> Lugas donde escribe el usuario,variables,etc (Estilo logico)</var>
+    <cite> introduce una cita/referencia (Estilo logico) </cite>
+    <dfn> introducir una definición (Estilo logico) </dfn>
+
+    <code> simil monoespaciado, Delimita el texo considerado un fragmento de código fuente (Estilo logico) </code>
+    <tt> simil monoespaciado, Delimita el texo considerado un fragmento de código fuente (Estilo fisico) </tt>
+
+ENLACES 
+Atributos propios	
+- name = "texto" - Permite nombrar al enlace para que se pueda acceder desde otros enlaces
+- href = "url" - Indica la URL del recurso que se quiere enlazar
+- hreflang = "codigo_idioma" - Idioma del recurso enlazado
+- type = "tipo_de_contenido" - Permite "avisar" al navegador sobre el tipo de contenido que se enlaza (imágenes, archivos, etc.) para que pueda preparase en caso de que no entienda ese contenido
+- rel = "tipo_de_relacion" - Describe la relación del documento actual con el recurso enlazado
+- rev = "tipo_de_relacion" - Describe la relación del recurso enlazado con el documento actual
+- charset = "tipo_de_charset" - Describe la codificación del recurso enlazado
+
+
+* Codificacion de caracteres: (Entidad de caracteres &...;)
 
 Entidad	 Carácter	Descripción	Traducción
 &lt;	  <	        less than	signo de menor que
@@ -34,22 +72,3 @@ Entidad	 Carácter	Descripción	Traducción
 &Oacute;	Ó	O acute
 &Uacute;	Ú	U acute
 &euro;   	€	euro
-
-
-
-
-URL
-
-Ejemplo http://www.alistapart.com/comments/webstandards2008?page=5#42
-
-Las cinco partes que forman la URL anterior son:
--Protocolo (http://)
--Servidor (www.alistapart.com)
--Ruta (/comments/webstandards2008)
--Consulta (?page=5): información adicional necesaria para que el servidor localice correctamente el recurso que se quiere acceder. Siempre comienza con el carácter ? y contiene una sucesión de palabras separadas por = y &
--Sección (#42): permite que el navegador se posicione automáticamente en una sección de la página web. Siempre comienza con el caracter #
-
-Tipos de URL (ejemplo)
-URL absoluta: http://www.ejemplo.com/ruta1/ruta2/pagina2.html
-URL relativa: /ruta1/ruta2/pagina2.html
-Una URL relativa es una versión abreviada de una URL absoluta.
