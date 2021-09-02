@@ -1,0 +1,48 @@
+LISTAS
+
+________________
+
+No ordenadas:  Una lista no ordenada es un conjunto de elementos relacionados entre sí pero para los que no se indica un orden o secuencia determinados
+(ul = unordered list
+(li = list item)
+
+<ul> 
+  <li>Inicio</li>
+  <li>Noticias</li>
+  <li>Artículos</li>
+  <li>Contacto</li>
+</ul>
+
+________________
+
+Ordenadas:  Una lista ordenada es un conjunto de elementos relacionados entre sí para los que se indica un orden o secuencia determinados
+(ol = ordered list
+(li = list item)
+
+<ol>
+  <li>Enchufar correctamente</li>
+  <li>Comprobar conexiones</li>
+  <li>Encender el aparato</li>
+</ol>
+
+________________
+
+Lista de definición:  Una lista similar a un diccionario
+(dl = Definition list
+(dt = Ddefinision del termino)
+(dd = descripcion de una definicion)
+
+<dl>
+  <dt>SGML</dt>
+  <dd>Metalenguaje para la definición de otros lenguajes de marcado</dd>
+ 
+  <dt>XML</dt>
+  <dd>Lenguaje basado en SGML y que se emplea para describir datos</dd>
+ 
+  <dt>RSS</dt>
+  <dt>GML</dt>
+  <dt>XHTML</dt>
+  <dt>SVG</dt>
+  <dt>XUL</dt>
+  <dd>Lenguajes derivados de XML para determinadas aplicaciones</dd>
+</dl>
