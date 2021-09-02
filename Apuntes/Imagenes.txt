@@ -1,0 +1,16 @@
+IMAGENES
+<img src="logotipo.gif" alt="Logotipo de Mi Sitio" />
+
+Atributos propios
+
+src = "url" - Indica la URL de la imagen que se muestra
+
+alt = "texto" - Descripción corta de la imagen
+
+longdesc = "url" - Indica una URL en la que puede encontrarse una descripción más detallada de la imagen
+
+name = "texto" - Nombre del elemento imagen
+
+height = "unidad_de_medida" - Indica la altura con la que se debe mostrar la imagen (no es obligatorio que coincida con la altura original de la imagen)
+
+width = "unidad_de_medida" - Indica la anchura con la que se debe mostrar la imagen (no es obligatorio que coincida con la anchura original de la imagen)
